@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #fdf2e9;
+}
+
+.logo {
+  height: 20rem;
+  width: 30rem;
+  /* margin-top: 2.5rem; */
+}
+
+/* NAVIGATION */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.nav-item {
+  font-size: 1.7rem;
+  font-weight: 550;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #e67e22;
+  transition: all 0.3s;
+}
+
+.nav-link.nav-btn {
+  padding: 1.2rem;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: #e67e22;
+}
+
+.nav-link.nav-btn:hover {
+  background-color: #a15818;
+  transition: 0.3s;
+}
+
+/* MAIN SECTION */
+
+.hero {
+  padding: 2rem 15rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 6rem;
+  font-weight: 900;
+  margin-bottom: 2.5rem;
+}
+
+.description {
+  color: #555;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.hero-img {
+  height: 50rem;
+  width: 50rem;
+  border-radius: 1rem;
+}
+
+.cta-btn {
+  font-weight: 550;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.2rem;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: #e67e22;
+  margin-top: 5rem;
+}
+
+.cta-btn:hover {
+  background-color: #a15818;
+  transition: 0.3s;
+}
+
+.secondary-btn {
+  font-weight: 550;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.2rem 3.2rem;
+  color: #555;
+  border-radius: 1rem;
+  background-color: #fff;
+  margin-top: 5rem;
+  margin-left: 0.5rem;
+}
+
+.secondary-btn:hover {
+  background-color: #fdf2e9;
+  box-shadow: 0 0 0 2px #fff;
+}
